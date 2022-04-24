@@ -80,10 +80,6 @@ a:hover {
   color: rgb(27, 129, 44) !important;
 }
 
-.ID-top-image {
-
-
-}
 
 .bd-placeholder-img {
   font-size: 1.125rem;
@@ -130,8 +126,7 @@ a:hover {
 .splash {
   margin-top: 0rem;
   padding-top: 0rem;
-  ackground: red !important;
-  eight: 40rem;
+ 
 }
 
 .splash .col-lg-4 {
@@ -186,8 +181,8 @@ a:hover {
   margin-bottom: 2rem;
   top: 0;
   height: 60rem;
-  ackground-color: red;
-  adding-top: 1rem !important;
+  
+  padding-top: 1rem !important;
 
 }
 
@@ -257,12 +252,11 @@ a:hover {
 }
 
 .poem-1 {
- 
-  adding: 0rem;
+
   width: 50%;
   left: 25%;
   position: relative;
-  ackground-color: red;
+ 
 }
 
 .smText-1 {
@@ -352,13 +346,13 @@ margin-top: 0.5rem;
 }
 
 .contactSec {
-  eight: 30rem;
+  
 }
 
 
 
 .roseCover {
-  ox-shadow: 1px 1px 30px rgba(6,6,6,0.74);
+  
   width: 20rem;
   max-width: 100px;
   transition: 500ms;
@@ -431,4 +425,16 @@ margin-top: 0.5rem;
 
 .btnRight {
   float: right !important;
+}
+
+.fillGrey {
+  filter: invert(1);
+
+}
+
+.fillGrey:hover {
+  filter: invert(1);
+  background-color: rgba(200,200,200,0.1);
+  
+
 }

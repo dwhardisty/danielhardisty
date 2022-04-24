@@ -18,12 +18,15 @@
 /* Declare heights because of positioning of img element */
 .carousel-item {
   height: 55rem;
+  
+ 
 }
 .carousel-item > img {
   position: absolute;
   top: 0;
   left: 0;
   min-width: 100%;
+  
   
 }
 .caraButton {
@@ -145,13 +148,14 @@
 
 .caraSlides {
   height: 3px !important;
-  adding-top: -1.5rem !important;
-  ackground: red;
+
 }
 
+
+/* carousel button position */
 .buttonSet {
-  margin-top: -2rem !important;
- 
+  margin-top: -6rem !important;
+  padding-bottom: 6rem !important;
   
 }
 
@@ -163,4 +167,8 @@
 
 .video {
   z-index: 1000;
+}
+
+.carousel-indicators {
+  margin-top: 3rem;
 }
